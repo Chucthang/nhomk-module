@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Libre Baskerville;
+  src: url(../fonts/Libre-Baskerville.woff2);
+  font-weight: bold;
+}
+.type-17 .breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.type-17 .breadcrumbs p {
+  float: left;
+  padding: 0;
+  font-size: 14px;
+  color: #999;
+  clear: both;
+  margin: 0;
+}
+.type-17 .breadcrumbs a {
+  text-indent: -999em;
+  background: url(../images/home.png) no-repeat center center;
+  height: 16px;
+  width: 16px;
+  display: block;
+  float: left;
+  margin-right: 4px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+.type-17 .page-content .head-line {
+  padding: 10px 0;
+  float: left;
+  width: 100%;
+}
+.type-17 .page-content .head-line .title {
+  font-size: 28px;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.type-17 .page-content .head-line .subheader {
+  float: left;
+  line-height: 12px;
+  margin-top: 5px;
+  margin-left: 1px;
+  text-transform: lowercase;
+  width: 100%;
+  color: #ACACAC;
+}
+.type-17 .page-content .content {
+  float: left;
+  margin-bottom: 2px;
+  width: 100%;
+}
+.type-17 .page-content .content p {
+  padding-bottom: 20px;
+  color: #777;
+}
