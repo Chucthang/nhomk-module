@@ -11,17 +11,17 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-11">
 	<div class="container">
 		<div class="row">
-			<div class="main">
 				<div class="home-products ">
 					<h2 class="widgettitle">RELATED PRODUCTS</h2>
 					<ul class="products" style="list-style: none">
 						<li class="product">
 							<span class="onsale">Sale</span>
 							<div class="product-thumb-wrap">
-								<div class="product-thumb">
+								<div class="product-thumb" >
 									<a href="">
 										<img  src="images/1-buy.jpeg"
 											alt="7215050400_1_1_1" title="" srcset=""
@@ -79,8 +79,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <label class="star star-8" for="star-8"></label>
                                     <input class="star star-7" id="star-7" type="radio" name="star"/>
                                     <label class="star star-7" for="star-7"></label>
-                                    <input class="star star-11" id="star-11" type="radio" name="star"/>
-                                    <label class="star star-11" for="star-11"></label>
+                                    <input class="star star-6" id="star-6" type="radio" name="star"/>
+                                    <label class="star star-6" for="star-6"></label>
                                   </form>
                                 </div>
 								<span class="price">
@@ -168,11 +168,9 @@ $url_path = str_replace('\\', '/', $url_path);
 								</span>
 							</a>
 						</li> <!--  .product  -->
-						
 						<div class="clear"></div> <!--  .product  -->
 					</ul>
 				</div><!-- .home-products -->
-			</div> <!--  end .main  -->	
 		</div> <!--  end .row  -->
 	</div> <!-- .container -->
 </div>
