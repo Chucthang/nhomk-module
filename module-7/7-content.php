@@ -85,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 </div> <!--  end #footer-inside  -->
 
-                <div class="clear"></div>
+                <div class="clear"></div>   
                 <span class="bottom-border"></span>
             </div>
             <!-- end #footer  -->
