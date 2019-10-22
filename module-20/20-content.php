@@ -28,7 +28,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         <h1 class="title">Portfolio 1 Column</h1>      
                     </div>
                     <div id="left" class="full-width">
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -56,8 +55,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </article>
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -85,8 +82,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </article>
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -114,8 +109,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </article>
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -143,8 +136,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </article>
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -172,8 +163,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-                        </article>
-                        <article id="post-1" class="post-1 post type-post">
                             <div class="post-content">
                                 <div class="container">
                                     <div class="row">
@@ -200,8 +189,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </article> 
+                            </div> 
                         </div>         
                     </div>
                 </div>
