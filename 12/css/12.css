@@ -1,6 +1,9 @@
+body {
+  font-family: 'Lora', serif;
+}
 @font-face {
-  font-family: Libre Baskerville;
-  src: url(../fonts/Libre-Baskerville.woff2);
+  font-family: 'Lora', serif;
+  src: url(../fonts/Lora-Regular.ttf);
   font-weight: bold;
 }
 .type-12 .close-icon {

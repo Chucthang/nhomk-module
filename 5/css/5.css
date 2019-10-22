@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lora', serif;
+}
 .type-5 {
   width: 100%;
   float: left;
@@ -9,8 +12,8 @@
   background-color: #6ab7b6;
 }
 @font-face {
-  font-family: Libre Baskerville;
-  src: url(../fonts/Libre-Baskerville.woff2);
+  font-family: 'Lora', serif;
+  src: url(../fonts/Lora-Regular.ttf);
   font-weight: bold;
 }
 .type-5 .top-border {
