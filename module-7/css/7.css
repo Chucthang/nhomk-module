@@ -1,15 +1,15 @@
 .type-7 {
   font-family: "Oswald";
 }
-.type-7 .home #footer {
-  margin-top: 0;
-}
 .type-7 #home-widgets .home-widget,
 .type-7 #footer {
   border-top: 3px solid #ff694f;
 }
 .type-7 .primary-color {
   background-color: #6ab7b6;
+}
+.type-7 .widget-content {
+  margin-left: -40px;
 }
 .type-7 #footer {
   width: 100%;
@@ -36,9 +36,12 @@
   margin-bottom: 30px;
   float: left;
 }
+.type-7 .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
 .type-7 .container {
-  position: relative;
-  margin: 0 auto;
+  padding-left: 76px;
 }
 .type-7 #quote .bottom-border,
 .type-7 #footer .bottom-border {
@@ -63,69 +66,19 @@
   font-family: "Oswald";
   line-height: 1em;
 }
-.type-7 html,
-.type-7 body,
-.type-7 div,
-.type-7 span,
-.type-7 applet,
-.type-7 object,
-.type-7 iframe,
-.type-7 h1,
-.type-7 h2,
-.type-7 h3,
-.type-7 h4,
-.type-7 h5,
-.type-7 h6,
-.type-7 p,
-.type-7 blockquote,
-.type-7 pre,
-.type-7 a,
-.type-7 abbr,
-.type-7 acronym,
-.type-7 address,
-.type-7 big,
-.type-7 cite,
-.type-7 code,
-.type-7 del,
-.type-7 dfn,
-.type-7 em,
-.type-7 font,
-.type-7 img,
-.type-7 ins,
-.type-7 kbd,
-.type-7 q,
-.type-7 s,
-.type-7 samp,
-.type-7 small,
-.type-7 strike,
-.type-7 strong,
-.type-7 sub,
-.type-7 sup,
-.type-7 tt,
-.type-7 var,
-.type-7 b,
-.type-7 u,
-.type-7 i,
-.type-7 center,
-.type-7 dl,
-.type-7 dt,
-.type-7 dd,
-.type-7 ol,
-.type-7 ul,
-.type-7 li,
-.type-7 fieldset,
-.type-7 form,
-.type-7 label,
-.type-7 legend {
-  background: none repeat scroll 0 0 transparent;
-  margin: 0;
-  outline: 0 none;
-  padding: 0;
-  vertical-align: baseline;
+.type-7 .widget-title1 {
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Oswald";
+  line-height: 1em;
+  margin-left: -41px;
 }
 .type-7 #bottom-info {
   clear: both;
   padding: 15px 0;
+  padding-left: 76px;
 }
 .type-7 #copyright {
   float: left;
@@ -140,6 +93,9 @@
   height: 30px;
   background: url(../images/card.png) 0 0 no-repeat transparent;
   float: right;
+}
+.type-7 #accepted {
+  padding-right: 99px;
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .type-7 #footer-widgets {
