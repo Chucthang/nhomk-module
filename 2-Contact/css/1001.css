@@ -1,0 +1,43 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.type-1001 a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 13px;
+  cursor: pointer;
+}
+.type-1001 h2 {
+  font-size: 1rem;
+}
+.type-1001 ul li {
+  list-style: block;
+}
+.type-1001 .container .contact .breadcum {
+  padding: 20px 0px;
+}
+.type-1001 .container .contact .breadcum .icon-home {
+  color: #6b6868;
+}
+.type-1001 .container .contact .breadcum .icon-home .fa-home {
+  color: #4b4a4a;
+}
+.type-1001 .container .contact .breadcum .txt-home a {
+  color: #ACACAC;
+}
+.type-1001 .container .contact .contact-below .entry-contact .title-contact {
+  color: #3d3d3d;
+  margin-bottom: 4px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 841px) {
+  .type-1001 .contact .contact-below {
+    padding: 0%;
+  }
+}
