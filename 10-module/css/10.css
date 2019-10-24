@@ -1,0 +1,276 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.type-10 .container {
+  width: 800px;
+  margin: 0 auto;
+}
+.type-10 h1,
+.type-10 h2,
+.type-10 h3,
+.type-10 h4,
+.type-10 h5,
+.type-10 h6 {
+  font-family: 'Oswald', 'Droid Sans', Helvetica, sans-serif;
+  color: #3d3d3d;
+  line-height: 1em;
+  margin-bottom: 0.6em;
+  font-weight: 400;
+}
+.type-10 div.tab button {
+  font-size: 13px;
+  background: #f6f6f6;
+  color: #999;
+  font-weight: bold;
+  clear: left;
+  margin-top: 10px;
+  border: 1px solid #999;
+  border-bottom: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 11px;
+  transition: 0.3s;
+}
+.type-10 .meta {
+  padding-bottom: 2px;
+}
+.type-10 div.tab button:hover {
+  color: #3d3d3d;
+}
+.type-10 div.tab button.active {
+  color: #3d3d3d;
+}
+.type-10 .tab {
+  border-bottom: 1px solid #999;
+}
+.type-10 .tabcontent {
+  display: none;
+  border-top: none;
+}
+.type-10 #Review .comment {
+  float: left;
+  margin: 8px 0;
+  border-bottom: 1px dashed #DDD;
+  width: 100%;
+  padding-bottom: 11px;
+}
+.type-10 #Review h2,
+.type-10 h2 {
+  font-family: 'Oswald', 'Droid Sans', Helvetica, sans-serif;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 18px;
+  font-size: 18px;
+}
+.type-10 .tabcontent img {
+  position: relative;
+  float: left;
+  padding: 2px;
+  border: 1px solid #999;
+  margin-right: 10px;
+}
+.type-10 .photo {
+  padding: 2px;
+  border: 1px solid #999;
+}
+.type-10 p {
+  background: #FEFEFE;
+  color: #777;
+  font-family: 'Lora', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.7em;
+}
+.type-10 strong {
+  color: #000;
+}
+.type-10 ul {
+  padding: 0;
+}
+.type-10 li {
+  list-style: none;
+}
+.type-10 .stars {
+  position: relative;
+  float: right;
+}
+.type-10 .star-rating {
+  float: right;
+  margin: 0 auto;
+  width: 80px;
+  height: 16px;
+  background: url("../images/star.png") repeat-x left 0;
+}
+.type-10 #tab-reviews .star-rating {
+  float: right;
+}
+.type-10 .star-rating span {
+  background: url("../images/star.png") repeat-x left -32px;
+  height: 0;
+  padding-top: 16px;
+  overflow: hidden;
+  float: left;
+}
+.type-10 .hreview-aggregate .star-rating {
+  margin: 10px 0 0 0;
+}
+.type-10 p.stars:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.type-10 p.stars span {
+  width: 80px;
+  height: 16px;
+  position: relative;
+  float: left;
+  background: url("../images/star.png") repeat-x left 0;
+}
+.type-10 p.stars span a {
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+.type-10 p.stars span a:hover,
+.type-10 p.stars span a:focus {
+  background: url("../images/star.png") repeat-x left -16px;
+}
+.type-10 p.stars span a.active {
+  background: url("../images/star.png") repeat-x left -32px;
+}
+.type-10 p.stars span a.star-1 {
+  width: 16px;
+  z-index: 10;
+}
+.type-10 p.stars span a.star-2 {
+  width: 32px;
+  z-index: 9;
+}
+.type-10 p.stars span a.star-3 {
+  width: 48px;
+  z-index: 8;
+}
+.type-10 p.stars span a.star-4 {
+  width: 64px;
+  z-index: 7;
+}
+.type-10 p.stars span a.star-5 {
+  width: 80px;
+  z-index: 6;
+}
+.type-10 #commentbox {
+  float: left;
+  margin: 2px 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.type-10 #commentbox textarea {
+  width: 610px;
+}
+.type-10 #respond {
+  padding-top: 0;
+  float: left;
+  width: 100%;
+}
+.type-10 #respond {
+  padding-left: 0px;
+}
+.type-10 #respond .stars {
+  float: none;
+}
+.type-10 #commentform textarea#comment {
+  width: 100%;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 10px;
+  color: #7f7e7e;
+}
+.type-10 #commentform label {
+  float: left;
+  width: 100%;
+}
+.type-10 span.required {
+  margin-left: 6px;
+}
+.type-10 #commentform input[type="text"] {
+  border: 1px solid #E5E5E5;
+  color: #7f7e7e;
+  height: 20px;
+  padding: 3px;
+  width: 40%;
+}
+.type-10 #respond textarea {
+  width: 100% !important;
+}
+.type-10 #respond input[type=text] {
+  width: 50% !important;
+}
+.type-10 #respond h3#comments {
+  background: none;
+  margin: 0px;
+  padding: 0px;
+}
+.type-10 .comment-form-comment {
+  padding-bottom: 4px;
+}
+.type-10 #commentbox h3 {
+  font-size: 14px;
+  text-transform: none;
+}
+.type-10 h1.title-page {
+  text-align: center;
+  margin-bottom: 44px;
+  color: #3d3d3d;
+  line-height: 1.6em;
+  font-size: 27px;
+}
+.type-10 #respond input[type="submit"],
+.type-10 input[type="submit"] {
+  background: #ff694f;
+}
+.type-10 #respond input[type="submit"],
+.type-10 input[type="submit"] {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  background: none repeat scroll 0 0 #FF694F;
+  border: 0px solid #555;
+  clear: both;
+  color: #FFF;
+  float: left;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 10px;
+  text-align: center;
+  width: auto;
+  text-shadow: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 10px;
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.25);
+  -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.25);
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.25);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+@media (max-width: 900px) and (min-width: 700px) {
+  .type-10 .container {
+    width: 550px;
+    float: left;
+  }
+}
+@media (max-width: 700px) and (min-width: 500px) {
+  .type-10 .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
