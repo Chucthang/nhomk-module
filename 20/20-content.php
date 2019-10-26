@@ -15,6 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <div class="type-20">
     <div class="wrapper container"> 
+        <div class="row">
         <div class="wrap-inside">
             <div class="main-content">
                 <div id="woo-ordering">
@@ -194,6 +195,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>           
+        </div>
         </div>
     </div>
 </div>  
