@@ -57,7 +57,7 @@ html {
   margin-bottom: 12px;
   text-align: center;
 }
-@media (max-width: 841px) {
+@media (max-width: 700px) {
   .type-1001 .contact .contact-below .maps_sidebar .sidebar_right {
     float: left;
   }
