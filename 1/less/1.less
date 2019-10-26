@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+    width: 0px; 
+    }
+@txt_header :  white;
+
+.type-1000 {
+
+    a {
+    text-decoration: none;
+    // color: rgb(255, 249, 249);
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+ul li
+{
+    list-style: none;
+}
+
+        #wrap_header
+        {
+            width: 100%;
+            height: auto;
+      
+            background-image: url("../images/header-bg-pattern.png");
+            .padding-header
+                {
+                    padding-top: 10px;
+                    .wrap_logo_text
+                    {
+                        float: left;
+                            .logo
+                            {
+                                margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: @txt_header;
+    font-family: 'Lobster', 'Droid Sans', Helvetica, sans-serif;
+                            }
+                            .textt
+                            {
+                                margin-top: 0px !important;
+                                margin-bottom: 0px !important;
+                                font-size: 13px !important;
+                                font-family: 'Lora';
+                                color: @txt_header;
+                            }
+                    }
+                    .wrap_text_search
+                    {
+                        float: right;
+                        background: rgba(256, 256, 256, 0.25);
+                        padding: 12px 8px 0px 8px;
+                        #myacc_cart_checkout
+                        {
+                            float: right;
+                            li 
+                            {   
+                                float: left;
+                                a{
+                                        color: @txt_header;
+                                        padding: 0px 10px;
+                                }
+                            }
+                        
+                        }
+                        #searchbar
+                        {
+                            float: right;
+                            .sform
+                            {
+                                border-radius: 6px;
+                                border: none;
+                            }
+                        }
+                    }
+
+                    .social-icon
+                    {
+                        clear: left;
+                        float: right;
+                        padding-bottom: 18px;
+                        padding-top: 8px;
+                        .call , .phone ,.follow 
+                        {
+                            color: @txt_header;
+                            padding-right: 10px;
+                        }
+
+                       
+                              .ic
+                        {
+                            text-align: center;
+                            // margin-top: -10px;
+                            // float: right;
+                            display: inline-block;
+                            width: 26px;
+                            height: 26px;
+                            border: 1px solid #f7f7f7;
+                            border-radius: 100%;
+                            margin-right: 7px; /*space between*/
+                            background: white;
+
+                            .hv{
+                                font-size: 15px;
+                            line-height: 26px;
+                            color: #6ab7b6;
+                            }
+                          
+                        }
+
+                                .ic:hover
+                                {
+                                    
+                                    background:  #8ad4d3;
+                                    border: 1px solid #8ad4d3;
+                                }
+                        
+                      
+                    }
+
+          
+                    .navbar
+                    {
+                        position: relative;
+                        clear: right !important;
+                        border: 1px solid rgba(0,0,0, 0.1);
+                        border-bottom: 0;
+                        padding: 0;
+                        border-top-right-radius: 8px;
+                        border-top-left-radius: 8px;
+
+                      
+                              .respon
+                                    {
+                                        display:none ; 
+                                        padding-left: 20px;
+                                    }
+                      
+                      .current-menu-item
+                      {
+                          background: url('../images/arrow.png') bottom center no-repeat ;
+                         
+                       
+                      }
+                        .nav-item
+                        {
+                            padding: .9em .0em;
+                                              .nav-link
+                                            {
+                                                // padding-right: .6rem !important;
+                                                //  padding-left: .6rem !important;
+                                                 padding: .1rem .9rem !important;
+                                                color: @txt_header;
+                                                border-right: 1px solid rgb(218, 214, 214);
+                                                font-weight: bold;
+                                            }
+                                    .dropdown-menu
+                                    {
+                                        display: none;
+                                        padding: 0px !important;
+                                        margin: 0px !important;
+                                        border: none;
+                                        background:  #ebe9e9;
+                                       
+                                        border-radius: 0px !important;
+
+                                        .nav-item:hover
+                                        {
+                                            // background: @txt_header;
+                                            // color: @txt_header;
+                                            // font-weight: bold;
+                                        }
+                                    }
+
+                                    .dropdown-toggle::after {
+                                      display: none;
+                                    }
+                                            
+                        }
+
+                        .nav-item:hover
+                        {
+                           
+                                    .dropdown-menu
+                                    {
+                                       display: block;
+
+                                       .menu-item
+                                       {
+                                           .dropdown-item:hover
+                                           {
+                                               background: none;
+                                           }
+                                           .dropdown-item
+                                           {
+                                            
+                                               font-weight: bold;
+                                           }
+                                       }
+                                       .menu-item:hover
+                                       {
+                                           background: rgb(214, 211, 211);
+                                       }
+                                    }
+                                            
+                        }
+      
+                        
+                    }
+                    .bg-nav
+                    {
+                        background:  #ff694f;
+                        -webkit-box-shadow: -1px -9px 19px 1px rgba(0,0,0,0.15);
+                        -moz-box-shadow: -1px -9px 19px 1px rgba(0,0,0,0.15);
+                        box-shadow: -1px -9px 19px 1px rgba(0,0,0,0.15);
+                        z-index: 2;
+                    }
+
+                    .price_menu
+                    {
+                        padding-right: 20px;
+                         .ch_color
+                         {
+                             color: @txt_header;
+                             font-weight: bold;
+                         }
+                    }
+
+                }
+
+        }
+        .elem
+        {
+            background: #6ab7b6;
+        }
+    
+
+
+ 
+ }
+ 
+ @media  (max-width: 992px) and (min-width: 842px)
+ {
+    .container {
+        max-width: 100%;
+    }
+ }
+
+ @media  (max-width: 841px)
+ {
+    // .container {
+    //     max-width: 100%;
+    // }
+    .type-1000 {
+
+        #wrap_header {
+           
+                .padding-header{
+                    text-align: center;
+                    .social-icon
+                    {
+                        float: none;
+                        padding: 18px 0px;
+                    }
+                    .wrap_logo_text
+                    {
+                             float: none; 
+                        width: 50%;
+                        margin: 0 auto;
+                        padding-bottom: 10px;
+                    }
+                    .wrap_text_search
+                    {
+                        
+                        width: 400px;
+                          float: none;
+                        display: flex;
+                        padding: 12px 8px 0px 8px;
+                        margin: 0 auto;
+                    }
+                        .navbar
+                              {
+
+                            padding: 15px 0px;
+                            .respon
+                            {
+                                display:block ; 
+                                .fa-bars
+                                {
+                                    font-size: 20px;
+                                    color: white;
+                                }
+                            }
+                            .navbar-nav
+                            {
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                top: 100%;
+                                display: none;
+                                background: #f7f7f7;
+                                width: 100%;
+                                
+
+                                    .nav-item
+                                    {
+                                        position: relative;
+                                        .nav-link
+                                        {
+                                            color: black;
+                                            border-right: none;
+                                        }
+
+                                        .dropdown-menu
+                                        {
+                                            position: absolute;
+                                            width: 100%;
+                                            text-align: center;
+
+                                          
+                                        }
+
+                                                   
+                                    }
+                                    .nav-item:hover
+                                    {
+                                       
+                                                .dropdown-menu
+                                                {
+                                                   display: none;
+                                                }
+                                                        
+                                    }
+                            }
+                        }
+                        .price_menu
+                        {
+                            position: absolute;
+                            right: 0;
+                            padding-right: 20px;
+                             .ch_color
+                             {
+                                 color: @txt_header;
+                             }
+                        }
+                }
+
+        }
+
+    
+
+    }
+
+
+ }
