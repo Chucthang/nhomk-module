@@ -31,6 +31,7 @@
   font-size: 28px;
   font-family: 'Oswald';
   font-weight: bold;
+  margin-left: 12px;
 }
 .type-20 .subheader {
   margin-left: 1px;
@@ -89,8 +90,4 @@
   width: 88px;
   right: 6px;
   margin-top: -38px;
-}
-.type-20 .row {
-  margin-left: -28px;
-  margin-right: 31px;
 }
