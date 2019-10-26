@@ -35,7 +35,7 @@
                                             <td class="">
                                                 <a href=""><img
                                                         width="180" height="180"
-                                                        src="/1118/images/0722308250_1_1_1-138x138.jpeg"
+                                                        src="/13/images/1-13.jpeg"
                                                         class="attachment-shop_thumbnail "
                                                         alt="poster_2_up"
                                                         srcset=""
