@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/623.less', 'css/623.css');
+    $less->compileFile('less/6.less', 'css/6.css');
     
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="<?php echo $url_path?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path?>/css/623.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path?>/css/6.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <?php include $dir_block.'/6-content.php'; ?>

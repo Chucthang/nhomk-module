@@ -13,6 +13,8 @@
                         <div class="wrap_sidebartext">
                             <select class="selec" disabled="disabled">
                             <option>Default sorting</option>
+                        
+                            
                            
                             </select>
                             <div id="sidebar-top">
