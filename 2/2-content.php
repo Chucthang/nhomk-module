@@ -1,4 +1,4 @@
-<div class="type-26">
+<div class="type-2">
  <div class="container setcontainer">
     <div class="wrap-portfolio">
                 <div class="wrap_br_title">

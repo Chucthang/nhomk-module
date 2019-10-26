@@ -12,7 +12,7 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/26.less', 'css/26.css');
+$less->compileFile('less/2.less', 'css/2.css');
 ?>
 
 
@@ -24,11 +24,11 @@ $less->compileFile('less/26.less', 'css/26.css');
         <meta name="viewport"  content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="./swiper-5.0.2/package/css/swiper.min.css">
+        <link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $url_path ?>/swiper-5.0.2/package/css/swiper.min.css">
         <link href="<?php echo $url_path ?>/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/26.js"></script>
+        <script src="<?php echo $url_path ?>/js/2.js"></script>
       
         <script src="<?php echo $url_path ?>/swiper-5.0.2/package/js/swiper.min.js"></script>
                 
@@ -37,12 +37,12 @@ $less->compileFile('less/26.less', 'css/26.css');
             include('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/26.less', 'css/26.css');
+        $less->compileFile('less/2.less', 'css/2.css');
         ?>
 
 </head>
     <body>
-       <?php include './26-content.php' ?>
+       <?php include './2-content.php' ?>
     </body>
 
 </html>
