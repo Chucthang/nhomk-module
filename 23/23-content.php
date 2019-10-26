@@ -1,5 +1,5 @@
 <head>
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="/23/js/jquery-1.12.0.min.js"></script>
     <script>
         $(document).ready(function () {
             $("span").click(function () {

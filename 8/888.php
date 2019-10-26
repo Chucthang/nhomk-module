@@ -27,7 +27,7 @@ $less->compileFile('less/888.less', 'css/888.css');
         <link href="<?php echo $url_path ?>/css/888.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/888.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/8/css/font-awesome.min.css">
 
                 
         <?php
