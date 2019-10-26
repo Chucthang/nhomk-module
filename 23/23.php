@@ -27,7 +27,7 @@ $less->compileFile('less/23.less', 'css/23.css');
         <link href="<?php echo $url_path ?>/css/23.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
         <script src="<?php echo $url_path ?>/js/23.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/23/css/font-awesome.min.css">
 
                 
         <?php
