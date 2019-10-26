@@ -14,7 +14,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku="2123"
 										class="button"
 										style="display: block;">Select options</a>
-									<img width="400" height="400" src="/6/images/4406151406_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/1-6.jpeg"
 									
 										alt="7215050400_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
@@ -40,7 +40,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku="6512"
 										class="button"
 										style="display: block;">Add to cart</a>
-									<img width="400" height="400" src="/6/images/4406151406_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/2-6.jpeg"
 										alt="4406151406_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
 								</div>
@@ -64,7 +64,7 @@
 									<a href="" rel="nofollow" data-product_id=""
 										data-product_sku="3241" class="button"
 										style="display: block">Add to cart</a>
-									<img width="400" height="400" src="/6/images/blazer_1-400x400.png"
+									<img width="400" height="400" src="/6/images/3-6.png"
 										
 										alt="0085224438_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
@@ -90,7 +90,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku=""
 										class="button " style="display: block">Add
 										to cart</a>
-									<img width="400" height="400" src="/6/images/4406151406_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/4-6.jpeg"
 									
 										alt="5644227600_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
@@ -116,7 +116,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku="3455"
 										class="button" style="display: block">Add
 										to cart</a>
-									<img width="400" height="400" src="/6/images/blazer_3-400x400.png"
+									<img width="400" height="400" src="/6/images/5-6.png"
 										
 										alt="3666220712_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
@@ -142,7 +142,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku="3124"
 										class="button "
 										style="display: block;">Add to cart</a>
-									<img width="400" height="400" src="/6/images/blazer_2-400x400.png"
+									<img width="400" height="400" src="/6/images/6-6.png"
 										 alt="blazer_1"
 										title="" srcset="" sizes="(max-width: 400px) 100vw, 400px"> 
 								</div>
@@ -167,7 +167,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku="2412"
 										class="button " style="display: block">Add
 										to cart</a>
-									<img width="400" height="400" src="/6/images/5644227600_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/7-6.jpeg"
 										 alt="blazer_2"
 										title="" srcset="" sizes="(max-width: 400px) 100vw, 400px"> 
 								</div>
@@ -192,7 +192,7 @@
 									<a href="" rel="nofollow" data-product_id="" data-product_sku=""
 										class="button" style="display: block">Add
 										to cart</a>
-									<img width="400" height="400" src="/6/images/4406151406_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/8-6.jpeg"
 										 alt="blazer_3"
 										title="" srcset="" sizes="(max-width: 400px) 100vw, 400px">
 								</div>
@@ -216,7 +216,7 @@
 									<a href="" rel="nofollow" data-product_id=""
 										data-product_sku="4354" class="button "
 										style="display: block">Add to cart</a>
-									<img width="400" height="400" src="/6/images/3666220712_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/9-6.jpeg"
 										
 										alt="2469573401_1_1_1" title="" srcset=""
 										sizes="(max-width: 400px) 100vw, 400px"> 
@@ -240,7 +240,7 @@
 								<div class="product-thumb">
 									<a  class="button "
 										style="display:block">Add to cart</a>
-									<img width="400" height="400" src="/6/images/2469573401_1_1_1-400x400.jpeg"
+									<img width="400" height="400" src="/6/images/9-6.jpeg"
 										
 										alt="2563072400_1_1_1" 
 										sizes="(max-width: 400px) 100vw, 400px"> 
