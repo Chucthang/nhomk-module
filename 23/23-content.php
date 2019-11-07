@@ -2,22 +2,22 @@
     <script src="/23/js/jquery-1.12.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            $("span").click(function () {
+            $(".mot").click(function () {
                 $("#abc").toggle();
             })
         })
         $(document).ready(function () {
-            $("div").click(function () {
+            $(".hai").click(function () {
                 $("#abc2").toggle();
             })
         })
         $(document).ready(function () {
-            $("picture").click(function () {
+            $(".ba").click(function () {
                 $("#abc3").toggle();
             })
         })
         $(document).ready(function () {
-            $("li").click(function () {
+            $(".bon").click(function () {
                 $("#abc4").toggle();
             })
         })
@@ -65,12 +65,11 @@
 
 
                 </div>
-
-                <span><a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
+                <div class="mot"><a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
                     <div class="ufo-shortcode code" style="display: none;" id="abc">[half] Content [/half] [half_last]
                         Content [/half_last]</div>
-                    <hr class="ufo-shortcode">
-                </span>
+                    <hr class="ufo-shortcode"></div>
+                
 
                 <div class="row">
                     <div class="col-md-4">
@@ -108,7 +107,7 @@
 
                     </div>
                 </div>
-                <div><a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
+                <div class="hai"><a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
                     <div class="ufo-shortcode code" style="display: none;" id="abc2">[half] Content [/half] [half_last]
                         Content [/half_last]</div>
                     <hr class="ufo-shortcode">
@@ -161,13 +160,14 @@
                     </div>
 
                 </div>
-                <picture>
-
-                    <a href="javascript:void(0)" class="ufo-code-toggle"> + See The Code </a>
+         
+                <div class="ba">  <a href="javascript:void(0)" class="ufo-code-toggle"> + See The Code </a>
                     <div class="ufo-shortcode code" style="display: none;" id="abc3">[half] Content [/half] [half_last]
                         Content [/half_last]</div>
-                    <hr class="ufo-shortcode">
-                </picture>
+                    <hr class="ufo-shortcode"></div>
+
+                  
+          
 
                 <div class="row">
                     <div class="col-md-6">
@@ -205,12 +205,12 @@
                     </div>
                 </div>
 
-
-                <li style="list-style: none;"><a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
+<div class="bon">  <a href="javascript:void(0)" class="ufo-code-toggle">+ See The Code</a>
                     <div class="ufo-shortcode code" style="display: none;" id="abc4">[half] Content [/half] [half_last]
                         Content [/half_last]</div>
                     <hr class="ufo-shortcode">
-                </li>
+            </div>
+              
 
 
 
