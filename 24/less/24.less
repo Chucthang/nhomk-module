@@ -1,0 +1,156 @@
+body {
+    background: #FEFEFE;
+    color: #777;
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.7em;
+}
+
+.type-24 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Oswald', 'Droid Sans', Helvetica, sans-serif;
+        color: #3d3d3d;
+        line-height: 1em;
+        margin-bottom: 0.6em;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+    }
+
+    p {
+        font-family: 'Lora', serif;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    a {
+        color: #777;
+        text-decoration: none;
+    }
+
+    .box {
+        padding: 10px;
+        border: 1px solid #CCCCCC;
+    }
+
+    .hilite {
+        background: yellow;
+    }
+
+    .code {
+        padding: 10px;
+        border: 1px solid #CCCCCC;
+    }
+
+    a.ufo-shortcode.button {
+        background-color: #FFF;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #efefef));
+        background-image: -webkit-linear-gradient(top, #fefefe, #efefef);
+        background-image: -moz-linear-gradient(top, #fefefe, #efefef);
+        background-image: -ms-linear-gradient(top, #fefefe, #efefef);
+        background-image: -o-linear-gradient(top, #fefefe, #efefef);
+        background-image: linear-gradient(top, #fefefe, #efefef);
+        border: 1px solid #ddd;
+        border-bottom: 1px solid #BBB;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        color: #333;
+        line-height: 1;
+        padding: 8px 12px;
+        text-align: center;
+        text-shadow: 1px 1px 0 #FFF;
+        cursor: pointer;
+        font: bold 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+        color: #3d3d3d;
+        float: left;
+        margin-right: 8px;
+        margin-bottom: 4px;
+    }
+
+    a.ufo-shortcode.button.green {
+        background-color: #7FBF4D;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7FBF4D), color-stop(100%, #63A62F));
+        background-image: -webkit-linear-gradient(top, #7FBF4D, #63A62F);
+        background-image: -moz-linear-gradient(top, #7FBF4D, #63A62F);
+        background-image: -ms-linear-gradient(top, #7FBF4D, #63A62F);
+        background-image: -o-linear-gradient(top, #7FBF4D, #63A62F);
+        background-image: linear-gradient(top, #7FBF4D, #63A62F);
+        border: 1px solid #63A62F;
+        border-bottom: 1px solid #5B992B;
+        -webkit-box-shadow: inset 0 1px 0 0 #96CA6D;
+        -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+        box-shadow: inset 0 1px 0 0 #96CA6D;
+        color: white;
+        text-shadow: 0 -1px 0 #4C9021;
+    }
+
+    a.ufo-shortcode.button.blue {
+        background-color: #52A8E8;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #52A8E8), color-stop(100%, #377AD0));
+        background-image: -webkit-linear-gradient(top, #52A8E8, #377AD0);
+        background-image: -moz-linear-gradient(top, #52A8E8, #377AD0);
+        background-image: -ms-linear-gradient(top, #52A8E8, #377AD0);
+        background-image: -o-linear-gradient(top, #52A8E8, #377AD0);
+        background-image: linear-gradient(top, #52A8E8, #377AD0);
+        border-top: 1px solid #4081AF;
+        border-right: 1px solid #2E69A3;
+        border-bottom: 1px solid #20559A;
+        border-left: 1px solid #2E69A3;
+        -webkit-box-shadow: inset 0 1px 0 0 #72B9EB, 0 1px 2px 0 #B3B3B3;
+        -moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
+        box-shadow: inset 0 1px 0 0 #72B9EB, 0 1px 2px 0 #B3B3B3;
+        color: white;
+        text-shadow: 0 -1px 1px #3275BC;
+        -webkit-background-clip: padding-box;
+    }
+
+    a.ufo-shortcode.button.red {
+        background-color: #EE432E;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EE432E), color-stop(50%, #C63929), color-stop(50%, #B51700), color-stop(100%, #891100));
+        background-image: -webkit-linear-gradient(top, #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+        background-image: -moz-linear-gradient(top, #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+        background-image: -ms-linear-gradient(top, #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+        background-image: -o-linear-gradient(top, #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+        background-image: linear-gradient(top, #EE432E 0%, #C63929 50%, #B51700 50%, #891100 100%);
+        border: 1px solid #951100;
+        color: white;
+        text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    a.ufo-shortcode.button.black {
+        -webkit-box-shadow: inset 0 0 1px 1px #4D4D4D;
+        -moz-box-shadow: inset 0 0 1px 1px #4D4D4D;
+        -ms-box-shadow: inset 0 0 1px 1px #4D4D4D;
+        -o-box-shadow: inset 0 0 1px 1px #4D4D4D;
+        box-shadow: inset 0 0 1px 1px #4D4D4D;
+        background: none repeat scroll 0 0 #2d2d2d;
+        border: 1px solid #333333;
+        color: #FFFFFF;
+        text-shadow: none;
+    }
+
+    a.ufo-shortcode.button.purple {
+        background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9E76E8), color-stop(1, #6224DE));
+        color: white;
+        text-shadow: 0px -1px 1px #473569;
+    }
+
+    a.ufo-shortcode.button.large {
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+
+}
